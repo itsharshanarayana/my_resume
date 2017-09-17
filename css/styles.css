@@ -1,0 +1,143 @@
+/*
+#34252F - dark brown
+#A28892 - light brown
+#F6E1C5 - light pink
+#FFF4E3 - very light pink
+*/
+
+/* Global Styles
+------------------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Neuton', serif;
+  margin: 0;
+}
+
+h1, h2{
+  font-family: 'Kaushan Script', cursive;
+
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+a {
+  color: dodgerblue;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: auto;
+}
+
+.col-narrow {
+  width: 30%;
+  float: left;
+  min-height: 175px;
+}
+
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 175px;
+}
+
+.edu-col-narrow {
+  width: 30%;
+  float: left;
+  min-height: 80px;
+  margin: 0;
+}
+
+.edu-col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 80px;
+  margin: 0;
+}
+.education .content-wrap h3, .education .content-wrap p {
+  margin: 0;
+}
+
+/* Header and Footer
+------------------------------------------------*/
+header, footer {
+  background-color: #34252F;
+  color: #F5E3E0;
+  margin: 0;
+}
+
+header h1, header h2 {
+  color: #F5E3E0;
+  margin: 0;
+}
+
+
+
+
+/* Header
+------------------------------------------------*/
+
+.profile-img {
+  border-radius: 50%;
+  margin: 0;
+
+}
+
+
+/* Footer
+------------------------------------------------*/
+footer {
+  text-align: center;
+}
+
+.contact-info a {
+  /*background-color: azure;*/
+  padding: 10px;
+  display: inline-block;
+}
+
+
+/* Work Experience
+------------------------------------------------*/
+.work {
+  background-color: #F6E1C5;
+
+}
+
+
+
+/* Education
+------------------------------------------------*/
+.education {
+  background-color: #FFF4E3;
+
+}
+
+
+
+
+
+/*
+------------------------------------------------*/
